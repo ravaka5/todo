@@ -19,7 +19,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  background: #eff6ff;
+  background: #0D0221;
   gap: 14px;
 }
 
@@ -79,6 +79,7 @@ p {
   padding: 14px;
   border-radius: 14px;
   background: white;
+  margin-bottom: 3px;
 }
 
 .todoItem p {
@@ -114,4 +115,11 @@ p {
   p {
     font-size: 1em;
   }
+}
+
+.Header {
+  text-align: center;
+  padding: 50px 0px 50px 20px;
+  background: #93FF96;
+  color: #0D0221;
 }
