@@ -3,12 +3,13 @@ import PropTypes from "prop-types"
 
 export default function TodoList(props) {
     let { todos } = props
+
     return (
     <div>
         {
             todos.map((todo,todoIndex) => {
                 return (
-                    <TodoCard key={todoIndex}>
+                    <TodoCard {...props} todoIndex={todoIndex} key={todoIndex}>
                         <p>{todo}</p>
                     </TodoCard>
                 )
